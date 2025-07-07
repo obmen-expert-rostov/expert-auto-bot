@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: expert-auto-bot
-    runtime: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python main.py"
-    plan: free
-    autoDeploy: true
